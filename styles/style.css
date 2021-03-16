@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+#section1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  400px;
+    height: 400px;
+}
+
+#section2{
+    margin-top: 3cm;
+    width: 30%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }
+img {
+    display: block;
+    margin-top: 3cm;
+    margin-left: auto;
+    margin-right: auto;
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+input.button {
+        border: none;
+        color: white;
+        width: 40%;
+        padding: 15px 32px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+input.happyButton {
+    float: right;
+    background-color: #4CAF50; /* Green */
+}
+
+input.sadButton{
+    float: left;
+    background-color: #df072f; /* Red */
+}
